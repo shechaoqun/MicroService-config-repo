@@ -3,19 +3,19 @@ spring:
 feature:
   x:
     enable: true
-
+---
 spring:
   profiles: production
 feature:
   x:
     enable: true
-
+---
 spring:
   profiles: docker
 feature:
   x:
     enable: true
-
+---
 spring:
   profiles: development
 feature:
