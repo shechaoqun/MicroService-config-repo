@@ -1,23 +1,23 @@
 spring:
-  profiles:default
+  profiles: default
 feature:
   x:
-    enable:true
+    enable: true
 
 spring:
-  profiles:production
+  profiles: production
 feature:
   x:
-    enable:true
+    enable: true
 
 spring:
-  profiles:docker
+  profiles: docker
 feature:
   x:
-    enable:true
+    enable: true
 
 spring:
-  profiles:development
+  profiles: development
 feature:
   x:
-    enable:true
+    enable: true
